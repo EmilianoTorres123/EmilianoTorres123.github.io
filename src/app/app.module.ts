@@ -8,6 +8,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { EducationComponent } from './education/education.component';
 import { SkillComponent } from './skill/skill.component';
 import { LogrosComponent } from './logros/logros.component';
+import { LanguagesComponent } from './languages/languages.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LogrosComponent } from './logros/logros.component';
     WorkExperienceComponent,
     EducationComponent,
     SkillComponent,
-    LogrosComponent
+    LogrosComponent,
+    LanguagesComponent
   ],
   imports: [
     BrowserModule,
