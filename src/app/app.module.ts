@@ -5,12 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { EducationComponent } from './education/education.component';
+import { SkillComponent } from './skill/skill.component';
+import { LogrosComponent } from './logros/logros.component';
+import { LanguagesComponent } from './languages/languages.component';
+import { InteresesComponent } from './intereses/intereses.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    EducationComponent,
+    SkillComponent,
+    LogrosComponent,
+    LanguagesComponent,
+    InteresesComponent
   ],
   imports: [
     BrowserModule,
