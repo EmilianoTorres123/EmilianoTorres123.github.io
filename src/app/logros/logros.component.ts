@@ -28,11 +28,31 @@ export class LogrosComponent implements OnInit {
       logros:[
         {descripcion: "Aprendi a programar en PLC"},
       ]
+      
     };
-    
+    let certi4 = {
+      certificado: "python",
+      link: "https://github.com/EmilianoTorres123/kaggle/blob/master/python/chamis%20Torres%20Nu%C3%B1es%20-%20Python.png",
+      logros:[
+        {descripcion: "kaggle"},
+      
+      ]
+      
+    };
+    let certi5 = {
+      certificado: "pandas",
+      link: "https://github.com/EmilianoTorres123/kaggle/blob/master/pandas/chamis%20Torres%20Nu%C3%B1es%20-%20Pandas.png",
+      logros:[
+        {descripcion: "kaggle"},
+      
+      ]
+      
+    };
     this.logros.push(certi);
     this.logros.push(certi2);
     this.logros.push(certi3);
+    this.logros.push(certi4);
+    this.logros.push(certi5);
 
 
   }
