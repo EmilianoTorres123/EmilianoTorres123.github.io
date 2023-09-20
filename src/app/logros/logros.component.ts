@@ -10,26 +10,7 @@ export class LogrosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    let certi = {
-      certificado: "Certificado Tecnico en mecatronica",
-      logros:[
-        {descripcion: "Sali com primedio 9.0 en especiliadades"},
-      ]
-    };
-
-    let certi2 = {
-      certificado: "Diploma por el desarrollo de un elevador con arduino",
-      logros:[
-        {descripcion: "Aprendi a programar en arduino"},
-      ]
-    };
-    let certi3 = {
-      certificado: "Diploma por el desarrollo de una banda transportadora",
-      logros:[
-        {descripcion: "Aprendi a programar en PLC"},
-      ]
-      
-    };
+    
     let certi4 = {
       certificado: "python",
       link: "https://github.com/EmilianoTorres123/kaggle/blob/master/python/chamis%20Torres%20Nu%C3%B1es%20-%20Python.png",
@@ -48,11 +29,28 @@ export class LogrosComponent implements OnInit {
       ]
       
     };
-    this.logros.push(certi);
-    this.logros.push(certi2);
-    this.logros.push(certi3);
+    let certi6 = {
+      certificado: "into to maching learning",
+      link: "https://github.com/EmilianoTorres123/into-marching/blob/master/into-machine-learning/chamis%20Torres%20Nu%C3%B1es%20-%20Intro%20to%20Machine%20Learning.png",
+      logros:[
+        {descripcion: "kaggle"},
+      
+      ]
+      
+    };
+    let certi7 = {
+      certificado: "intermedio maching learning",
+      link: "https://github.com/EmilianoTorres123/into-marching/blob/master/intermedio%20maching%20learning/chamis%20Torres%20Nu%C3%B1es%20-%20Intermediate%20Machine%20Learning.png",
+      logros:[
+        {descripcion: "kaggle"},
+      
+      ]
+      
+    };
     this.logros.push(certi4);
     this.logros.push(certi5);
+    this.logros.push(certi6);
+    this.logros.push(certi7);
 
 
   }
